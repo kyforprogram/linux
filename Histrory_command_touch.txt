@@ -1,0 +1,20 @@
+    1  touch {a.b.c}.txt
+    5  touch a
+   31  touch -p a/b/c
+   32  touch {a,b,c}.file
+   79  touch --help
+   87  touch -- -100
+   99  touch file
+  101  touch file
+  151  touch 1 2 3
+  227  touch {1,2,3}.file
+  305  touch a.txt
+  323  touch --help
+  535  touch file3 file3.txt file313 file33 file33.txt
+ 1050  touch
+ 1051  history | grep touch
+ 1239  touch .gitignore
+ 1420  history | grep touch
+ 1421  cd sample; touch file3 file3.txt file313 file33 file33.txt
+ 1424  history | grep touch
+ 1425  history | grep touch >> History_commond_touch.txt
