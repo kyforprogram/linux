@@ -1,0 +1,38 @@
+  577  netstat
+  578  netstat -l
+  579  netstat -ltp
+  610  netstat -l
+  611  netstat -n
+  612  netstat -t
+  613  netstat -u
+  614  netstat -p
+  615  netstat -r
+  705  man netstat
+  708  netstat
+  709  netstat -n
+  710  man netstat | less
+  712  netstat
+  713  netstat -n
+  714  netstat
+  715  netstat | tail 10
+  716  netstat | tail -10
+  717  netstat | head -10
+  718  netstat -r | head -10
+  719  netstat -i | head -10
+  759  netstat -ltp
+  764   netstat
+  765  netstat -30
+  766  netstat | head -50
+  769  netstat -r
+  781  netstat -anp | grep :5000
+  797  netstat -an|grep tcp
+  812  netstat
+  817  netstat > netstat.txt
+  848  netstat -r
+  854  netstat -nr
+  872  netstat -r
+  875  netstat -r > netstat-r.txt
+  879  mv netstat-r.txt route
+  893  netstat -r
+ 1544  history | grep netstat
+ 1545  history | grep netstat > Hisory_netstat.txt
