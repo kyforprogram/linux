@@ -1,0 +1,24 @@
+   13  mkdir a
+   14  mkdir {b,c}
+   17  mkdir b/b
+   18  mkdir ./b/b
+   19  mkdir --help
+   20  mkdir -p b c
+   21  mkdir -p b/c
+   25  mkdir -p a/b/c
+   27  mkdir -p a/b/c
+   63  mkdir {a,b}
+   84  mkdir a/b/c
+   85  mkdir -p a/b/c
+   89  mkdir -p a/b/c/
+   97  mkdir -m 700 -700
+   98  mkdir -m 700 -- -700
+  262  mkdir 800
+  299  mkdir -m --help
+  300  mkdir --help
+  533  mkdir sample
+  876  mkdir route
+ 1274  mkdir 8
+ 1376  mkdir
+ 1606  history | grep mkdir
+ 1607  history | grep mkdir >> History_mkdir.txt
